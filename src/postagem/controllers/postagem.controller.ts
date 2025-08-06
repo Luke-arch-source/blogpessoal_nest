@@ -10,7 +10,7 @@ export class PostagemController{
     @Get()
     @HttpCode(HttpStatus.OK)
     findAll(): Promise<Postagem[]>{
-        return this.postagemService.findALL();
+        return this.postagemService.findAll();
     }
 
 
@@ -27,7 +27,7 @@ export class PostagemController{
     @Get('/titulo/:titulo')
     @HttpCode(HttpStatus.OK)
     findAllByTitulo(@Param('titulo') titulo:string): Promise<Postagem[]> {
-        return this.postagemService.findALLByTitulo(titulo);
+        return this.postagemService.findAllByTitulo(titulo);
     }
 
 
