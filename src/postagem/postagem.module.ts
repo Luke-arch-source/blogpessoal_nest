@@ -7,7 +7,7 @@ import { Postagem } from "./entities/postagem.entity";
 import { PostagemService } from "./services/postagem.service";
 
 //bbb
-import { TemaModule } from "src/tema/entities/tema.module";
+import { TemaModule } from "src/tema/tema.module";
 
 @Module({
     // imports: [
