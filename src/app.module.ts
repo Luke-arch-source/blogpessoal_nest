@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { Tema } from './tema/entities/tema.entity';
+import { Tema } from '/Users/user/Documents/node-js/blogpessoal/src/tema/entities/tema.entity';
 import { TemaModule } from './tema/tema.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PostagemModule } from './postagem/postagem.module';

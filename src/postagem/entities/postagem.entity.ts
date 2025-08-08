@@ -1,5 +1,5 @@
 import { IsNotEmpty } from 'class-validator'; 
-import { Tema } from 'src/tema/entities/tema.entity';
+import { Tema } from '/Users/user/Documents/node-js/blogpessoal/src/tema/entities/tema.entity';
 import { Column, Entity, ManyToMany, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn} from "typeorm";
 import { Usuario } from '../../usuario/entities/usuario.entity';
 
